@@ -1,0 +1,49 @@
+.speech{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  font-size: small;
+
+  color: black;
+
+}
+
+.direction{
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  font-size:large;
+
+  color:black;
+
+  background-color: antiquewhite;
+
+}
+
+.direction:hover{
+
+  background-color:chartreuse;
+
+  color:darkorchid;
+}
+
+.Billing{
+
+  color:blue;
+
+}
+
+.Hovstad{
+
+  color:brown;
+
+}
+
+.Dr Stockman{
+
+  color:azure;
+
+}
+
+
+
