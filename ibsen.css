@@ -33,17 +33,173 @@
 
 }
 
+.Billing:hover{
+  background-color:aliceblue;
+  text-align: center;
+  text-shadow:2px 2px 6px white;
+  border:dashed;
+
+}
+
 .Hovstad{
 
   color:brown;
 
 }
 
-.Dr Stockman{
+.Hovstad:hover{
+  background-color:bisque;
+  text-align: center;
+  text-shadow:2px 2px 6px greenyellow;
+  border:dashed;
+}
 
-  color:azure;
+.DrStockman{
+
+  color:chartreuse;
 
 }
 
+.DrStockman:hover{
+  background-color:crimson;
+  text-align: center;
+  text-shadow:2px 2px 6px gold;
+  border:dashed;
+}
+
+.Aslaksen{
+  color:aqua;
+}
+
+.Aslaksen:hover{
+  background-color:darkgoldenrod;
+  text-align: center;
+  text-shadow:2px 2px 6px violet;
+  border:dashed;
+}
+
+table{
+
+  width: 100%;
+
+  border:3px solid;
+
+  /*border-style: dashed;*/
+
+}
+
+
+
+th{
+
+ /* border-style: dotted;*/
+
+ border:3px solid;
+
+  color:crimson;
+
+  text-align: center;    
+
+  margin:auto;
+
+}
+
+table, th{
+
+  border:1px solid;
+
+  border-collapse: collapse;
+
+}
+
+th{
+
+  color:brown;
+
+ 
+
+}
+
+td{
+
+   border:1px solid;
+
+  border-top:1px solid;
+
+  border-bottom:1px solid;
+
+}
+
+tr{
+
+  border:3px solid ;
+
+  border-style:ridge;
+
+  text-align: center;
+
+  margin: auto;
+
+  padding: 1%;
+
+  color:darkmagenta;
+
+}
+
+tr:nth-child(odd){
+
+  border-radius: 1%;
+
+}
+.navbar-horizontal{
+
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow:hidden;
+
+  background-color:aqua;
+
+}
+
+li{
+
+  float: left;
+
+}
+
+li a{
+
+  display: block;
+
+  color: black;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration:dotted;
+
+}
+
+li a:hover:not(.active) {
+
+  background-color:green;
+
+}
+
+.active {
+
+  background-color:goldenrod;
+
+}
+
+.material-icons{
+
+color:red;
+}
 
 
